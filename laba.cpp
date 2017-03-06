@@ -5,11 +5,11 @@ using namespace std;
 int main()
 {
 	int sum, date1, date2;
-	cout << "Vvedite summu vklada (minimal'naya summa 10 tys): " << endl;
+	cout << "Vvedite s ummu vklada (minimal'naya summa 10 tys): " << endl;
 	cin >> sum;
 	if (sum > 0 && sum < 10000 )
 		{
-			cout << endl << "Vy vveli nevernuyu summu, minimal'naya summa vznosa 10 000. Pozhaluysta vvedite korrektnuyu summu" << endl;
+			cout << endl << "Vy vveli nevern uyu summu, minimal'naya summa vznosa 10 000. Pozhaluysta vvedite korrektnuyu summu" << endl;
 			cin >> sum;
 		}
 	if (sum >= 10000 && sum <= 100000)
