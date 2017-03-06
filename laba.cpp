@@ -64,12 +64,12 @@ int main()
 			if (date2 >= 121 && date2 <= 240)
 			{
 				sum = sum + (sum/100)*8;
-				cout << "Vasha summa cherez " << date2 <<" dney: " << sum;
+				cout << "Vasha summa cher ez " << date2 <<" dney: " << sum;
 			}
 			if (date2 >= 241 && date2 <= 365)
 			{
 				sum = sum + (sum/100)*15;
-				cout << "Vasha summa cherez " << date2 <<" dney: " << sum;
+				cout << "Vasha summa cher ez " << date2 <<" dney: " << sum;
 			}
 		}
 	return 0;
